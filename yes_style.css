@@ -1,24 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(17, 146, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: linear-gradient(to right, #ff5f6d, #ffc371); /* Vibrant gradient */
 }
 
 .header_text {
-    font-family: monospace;
-    font-size: 50px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+  font-family: orbitron;
+  font-size: 90px;
+  font-weight: bold;
+  color: rgb(2, 2, 2);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .gif_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Optional padding for spacing */
+  border-radius: 10px; /* Optional rounded corners */
 }
